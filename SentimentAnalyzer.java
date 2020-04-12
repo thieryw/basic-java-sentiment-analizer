@@ -43,7 +43,6 @@ public class SentimentAnalyzer {
 
             if(review.contains(pattern + string)){
                 opinion++;
-                System.out.println("good");
             }
         }
 
@@ -71,7 +70,6 @@ public class SentimentAnalyzer {
                 if(string.contains(string2 + ' ' + feature)){
                     opinion++;
 
-                System.out.println("good");
                 }
             }
 
